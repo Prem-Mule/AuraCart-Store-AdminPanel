@@ -1,0 +1,20 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 2vw;
+  height: 100vh;
+}
+@media (max-width: 550px) {
+  .sidebar {
+    min-width: 100%;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+    height: min-content;
+  }
+  .sidebarlink {
+    width: 26vw;
+    padding: 2vw;
+    font-size: 2vw;
+  }
+}

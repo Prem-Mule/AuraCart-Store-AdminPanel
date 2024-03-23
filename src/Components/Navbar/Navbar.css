@@ -1,0 +1,9 @@
+@media (max-width: 800px) {
+  img {
+    height: 92vh;
+  }
+  .navbar {
+    padding-left: 4vw;
+    padding-right: 4vw;
+  }
+}
